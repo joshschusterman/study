@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block style %}
+    <link rel="stylesheet" href="../static/styles.css">
+{% endblock %}
+
+{% block body %}
+
+    <h2>Let's make a decision, shall we?</h2>
+    <img src="../static/decision.jpg" id="decision_pic">
+    
+    <form action="/decision" method="post">
+        <div>
+            Tell me your name.
+            <input type="text" autocomplete="off" name="name" placeholder="Name">
+        </div>
+        <div>
+            Tell me your first option.
+            <input type="text" autocomplete="off" name="first_option" placeholder="First option">
+        </div>
+        <div>
+            Tell me your second option.
+            <input type="text" autocomplete="off" name="second_option" placeholder="Second option">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock %}

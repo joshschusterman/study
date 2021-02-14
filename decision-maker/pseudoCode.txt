@@ -1,0 +1,13 @@
+Decision-maker
+
+Allow user to enter name and two options.
+- Eventually allow multiple options, adjust code to "roll the dice" with that number of options.
+Print out name of user, and selected option.
+
+If no name, print sir/madam.
+
+If no answers, print "you should think of something to do!"
+
+OTHER IDEAS
+
+Use event handler to print a quote about making decisions every time pic is clicked?

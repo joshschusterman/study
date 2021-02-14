@@ -1,0 +1,72 @@
+html
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#decision_pic
+{
+    width: 25%;
+    height: auto;
+}
+
+#do_it
+{
+    width: 40%;
+    height: auto;
+}
+
+.inputs
+{
+    margin: 10px;
+}
+
+footer 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-size: small;
+}
+
+.choice
+{
+    margin: 50px;
+    font-style: italic;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn 
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-moz-keyframes fadeIn 
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-webkit-keyframes fadeIn 
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-o-keyframes fadeIn 
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+@-ms-keyframes fadeIn 
+{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
