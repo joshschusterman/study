@@ -11,3 +11,4 @@ If no answers, print "you should think of something to do!"
 OTHER IDEAS
 
 Use event handler to print a quote about making decisions every time pic is clicked?
+- event handler onclick, innerHTML, etc.
