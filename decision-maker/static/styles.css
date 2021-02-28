@@ -2,11 +2,12 @@ html
 {
     height: 100%;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: no-repeat center linear-gradient(rgb(47, 45, 223) 30%, skyblue 70%);
+    font-family: 'Open Sans', sans-serif;
+    background: no-repeat center linear-gradient(to bottom right, rgb(47, 45, 223) 30%, skyblue 70%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 h2
@@ -31,6 +32,7 @@ p
     width: 40%;
     height: auto;
     animation: fadeIn ease 5s;
+    /* do I still need these or are all browsers caught up? */
     -webkit-animation: fadeIn ease 5s;
     -moz-animation: fadeIn ease 5s;
     -o-animation: fadeIn ease 5s;
@@ -49,6 +51,7 @@ footer
     width: 100%;
     height: 2.5rem;
     font-size: small;
+    font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .choice
