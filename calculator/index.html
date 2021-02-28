@@ -5,44 +5,41 @@
         <meta name="viewport" content="initial-scale=1, width=device-width">
         <title>Calculator</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="scripts.js"></script>
     </head> 
     <body>
         <div class="keypad">
             <div class='row1'>
-                <div class='key' onclick="output()">C</div>
-                <div class='key'>+/-</div>
-                <div class='key'>÷</div>
+                <div class='key' id='clear' onclick="output(this)">C</div>
+                <div class='key' id='posneg' onclick="output(this)">-</div>
+                <div class='key' id='divide' onclick="output(this)">÷</div>
             </div>
             <div class='row2'>
-                <div class='key' value='7' onclick="output()">7</div>
-                <div class='key'>8</div>
-                <div class='key'>9</div>
-                <div class='key'>*</div>
+                <div class='key' id='7' onclick="output(this)">7</div>
+                <div class='key' id='8' onclick="output(this)">8</div>
+                <div class='key' id='9' onclick="output(this)">9</div>
+                <div class='key' id='multiply' onclick="output(this)">*</div>
             </div>
             <div class='row3'>
-                <div class='key'>4</div>
-                <div class='key'>5</div>
-                <div class='key'>6</div>
-                <div class='key'>-</div>
+                <div class='key' id='4' onclick="output(this)">4</div>
+                <div class='key' id='5' onclick="output(this)">5</div>
+                <div class='key' id='6' onclick="output(this)">6</div>
+                <div class='key' id='minus' onclick="output(this)">-</div>
             </div>
             <div class='row4'>
-                <div class='key'>1</div>
-                <div class='key'>2</div>
-                <div class='key'>3</div>
-                <div class='key'>+</div>
+                <div class='key' id='1' onclick="output(this)">1</div>
+                <div class='key' id='2' onclick="output(this)">2</div>
+                <div class='key' id='3' onclick="output(this)">3</div>
+                <div class='key' id='plus' onclick="output(this)">+</div>
             </div>
             <div class='row5'>
-                <div class='key'>0</div>
-                <div class='key'>.</div>
-                <div class='key'>=</div>
+                <div class='key' id='0' onclick="output(this)">0</div>
+                <div class='key' id='.' onclick="output(this)">.</div>
+                <div class='key' id='=' onclick="output(this)">=</div>
             </div>
         </div>
-        <div class="output">
-        </div>
+        <div class="out">0</div>
+        <script src="scripts.js"></script>
         
     </body>
-
-
 
 </html>
