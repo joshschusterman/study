@@ -1,0 +1,41 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.background-image
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/running.jpg');
+    background-size: cover;
+    padding-top: 0px;
+    margin: 0px;
+    background-color: rgb(87, 161, 211);
+    background-blend-mode: darken;
+}
+
+.todo
+{
+    float: left;
+    margin: 5%;
+    font-size: 3em;
+}
+
+.items
+{
+    font-size: .5em;
+}
+
+.form
+{
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 5%;       
+}
+
+/* Need to figure out how to get input box and button to stay top right when in
+mobile mode in the inspector. */
