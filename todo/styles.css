@@ -19,23 +19,90 @@ body
 .todo
 {
     float: left;
-    margin: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
     font-size: 3em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
 }
 
 .items
 {
     font-size: .5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inputContainers
+{
+    height: 50vh;
+    width: 40vw;
+    float: right;
 }
 
 .form
 {
     position: relative;
-    float: right;
+    padding-top: 5%;
+    padding-right: 3%;;
     text-align: right;
-    margin-right: 5%;
-    margin-top: 5%;       
+}
+
+#input
+{
+    border: none;
+    font-size: 1.2rem;
+}
+
+.btn-add
+{
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+}
+
+#address
+{
+    border: none;
+    font-size: 1.2rem;
+}
+
+.btn-send
+{
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+}
+
+.email
+{
+    position: relative;
+    padding-top: 3%;
+    padding-right: 3%;;
+    text-align: right;
+    
+}
+
+.newListItem
+{
+    font-size: 1em;
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    list-style-type: none;
+}
+
+.newListItem:hover
+{
+    background-color: lightgray;
 }
 
 /* Need to figure out how to get input box and button to stay top right when in
-mobile mode in the inspector. */
+mobile mode in the inspector. NOTE: I accomplished this by just putting the form above
+the TODO list in the markup. */
