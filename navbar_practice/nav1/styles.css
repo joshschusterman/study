@@ -1,0 +1,68 @@
+/* set some CSS variables */
+:root{
+    --clr-background: #f1f1f1;
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-primary: #ff8585;
+    --font-size: 16px;
+    --b-radius: .4em;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size);
+    color: var(--clr-black);
+    background-color: var(--clr-background);
+}
+
+.navbar{
+    width: 100vw;
+    background-color: var(--clr-primary);
+    margin: 0;
+    height: 3.5em;
+}
+
+.list-container{
+    display: flex; /* aligns items (li) in a row */
+    list-style: none; /* remove bullet points */
+    justify-content: flex-end; /* push items (li) to end of row */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.list-container li{  
+    height: 100%; /* Needed so a:hover fills full height */
+}
+
+.list-container li:first-child{
+    margin-right: auto; /* This pushes the logo over to the left. */
+}
+
+.list-container li a{
+    display: flex;
+    text-decoration: none;
+    color: var(--clr-black);
+    height: 100%; /* Needs to fill vertical space within li tag so align-items works */
+    align-items: center; /* center a tags in middle of li element*/
+    padding: 0 2em;
+}
+
+.list-container li a:hover{
+    background-color: var(--clr-white);
+    height: 100%;
+}
+
+
+/* Adjust font-size and nav link padding for mobile */
+@media screen and (max-width: 500px){
+    body{
+        font-size: .75em;
+    }
+
+    .list-container li a{
+        padding: 0 1em;
+    }
+}
